@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Media Player</title>
+    <style>
+    .music-player{
+        background-color: pink;
+        border: 3px solid blue;
+        height: 70vh;
+        width: 30%;
+        margin-left: 30%;
+    }
+    .icons{
+        display: flex;
+        padding: 10px;
+        border: 1px solid purple;
+    }
+    .back-upgrade{
+        display: flex;
+    }
+
+    .home{
+        margin-left: 5px;
+    
+    }
+    .back{
+        margin-left: 230px;
+    }
+    .upgrade-back{
+       position: relative;
+       top: 273px;
+       margin-left: -79px;
+        
+    }
+
+   
+    
+    
+    .music-picture{
+        border-radius: 90px;
+        background-color: red;
+        padding: 50px;
+        height: 80px;
+        width: 70px;
+        margin-left: 55px;
+        margin-top: 50px;
+    }
+    
+    
+    .upgrade-music{
+        border: 1px solid black;
+        padding: 10px;
+        height: 12px;
+        width: 120px;
+        margin-top: 135px;
+        margin-left: -38px;
+    }
+    .audio{
+        position: relative;
+
+    }
+    .control-icons{
+        display: flex;
+    }
+    .previous{
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        transform: scale(var(--ggs,1));
+        width: 22px;
+        height: 22px;
+        border: 2px solid;
+        border-radius: 100%;
+    }
+    input[type="range"] {
+        position:relative;
+        -webkit-appearance: none;
+        width: 48%;
+        margin: 0;
+        padding:0;
+        height: 19;
+        margin: 30px 2.5% 20px 2.5%;
+        float: left;
+        outline: none;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="music-player">
+
+                <div class="icons">
+                            <span class="home"><</span>
+                            <span class="back">></span>
+                            <span class="back-again">></span>
+                    <div class="for-upgrade">
+                        <span class="upgrade-back">></span>
+                    </div>
+                </div>
+                    <div class="music-picture">
+                        <div class="upgrade-music"></div>
+                        <div class="audio">
+                            <audio src="change.mp3"></audio>
+                        </div>
+                        <div class="control-icons">
+                            <span class="like">like</span>
+                            <span class="lyrics">lyrics</span>
+                            <span class="previous"></span>
+                            <span class="play"></span>
+                            <span class="next"></span>
+                            <span class="repeat"></span>
+                            <span class="playlist"></span>
+                            <span class="music"></span>
+                            <div id="audio-player-container">
+                                <p>Audio Player</p>
+                                <button id="play-icon"></button>
+                                <span id="current-time" class="time">0:00</span>
+                                <input type="range" id="seek-slider" max="100" value="0">
+                                <span id="duration" class="time">0:00</span>
+                                <input type="range" id="volume-slider" max="100" value="100">
+
+                            </div>
+                        </div>
+
+
+                </div>
+                
+
+    </div>
+</body>
+</html>
