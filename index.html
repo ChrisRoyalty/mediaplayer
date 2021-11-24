@@ -2,156 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Media Player</title>
-    <style>
-    .music-player{
-        background-color: brown;
-        border: 4px solid red;
-        height: 70vh;
-        width: 30%;
-        margin-left: 30%;
-    }
-    .icons{
-        display: flex;
-        padding: 10px;
-        border: 2px solid rgb(165, 42, 42);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.288);
-        margin-top:-270px;
-    }
-    .back-upgrade{
-        display: flex;
-    }
-
-    .home{
-        margin-left: 5px;
-        color:white;
-    }
-    .back{
-        margin-left: 35px;
-        color: white;
-    }
-    .back-again{
-        color: white;
-        margin-left: 2px;
-    }
-    .upgrade-back{
-       position: relative;
-       top: 275px;
-       margin-left: -35px;
-       font-weight: 100px;
-        
-    }
-
-   
-    
-    
-    .music-picture{
-        border: 2px solid rgba(255, 0, 0, 0.527);
-        border-radius: 90px;
-        background-image: url("musicphoto.jpg");
-        padding: 50px;
-        height: 80px;
-        width: 70px;
-        margin-left: 55px;
-        margin-top: 80px;
-    }
-    .music-picture  {
-        animation: infinite-spinning 1s infinite linear;
-    }
-    @keyframes infinite-spinning{
-        from{
-            -webkit-transform: rotate(0deg);
-        }
-        to{
-            -webkit-transform: rotate(360deg);
-        }
-    }
-    
-    
-    .upgrade-music{
-        border: 4px solid rgba(0, 0, 0, 0.11);
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.589);
-        height: 12px;
-        width: 180px;
-        margin-top: 230px;
-        margin-left: 40px;
-        text-align: center;
-        color: white;
-    }
-    .audio{
-        position: relative;
-        margin-left: 20px;
-        padding-top: 10px;
-        height: 5px;
-    }
-    audio::-webkit-media-controls-panel{
-        background-color: red;
-    }
-    .control-icons{
-        display: flex;
-    }
-    .like{
-        margin-top: 30px;
-        margin-left: 75px;
-        color: wheat;
-    }
-    .lyrics{
-        margin-left: 60px;
-        margin-top: 30px;
-        color: wheat;
-    }
-    .music-playing{
-        margin-top: -5px;
-        margin-left: 50px;
-        font-size: 20px;
-    }
-    
-  
-    
-    
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css"  media="screen"/>
 </head>
 <body>
-    <div class="music-player">
-        <div class="music-picture"> </div>
+    <div>
+        <div class="heading-clicks">
+          
+            <img src="images/logo.jpg " width="42" height="40">
+            <a class="logo" href=""><b> Spotify</b></a>
+           
+            <a class="premium" href="premium.html">Premium</a>
+            <a class="support" href="support.html">Support</a>
+            <a class="download" href="download.html">Download</a>
+            <span class="clicks-divider">|</span>
+            <a class="sign-up" href="signup.html">Sign up</a>
+            <a class="log-in" href="login.html">Log in</a> 
+           
+        </div>
+        <div class="cover-page">
+            
+            <img src="images/spotify1.png";  width="1354px"; height="900px">
+             <h1 class="first-text">Listening is <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; everything</h1>
+             <p class="second-text">Millions of songs and podcasts. No credit card needed.</p>
+             <a class="button" href=""><b>GET SPOTIFY FREE</b></a>
+        </div>
+        <div class="cover-page4">
+    <div class="container">
+    <div class="downdiv1">
+        <img src="images/Image01.jpg" width="70px" height="55px">
+        <a href="">Spotify<small>&copy</small></a>
+    </div>
+    <div class="choice">
+        <ul>
+            <li><small><b>COMPANY</b></small></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">For the Records</a></li>
+        </ul>
 
-                <div class="icons">
-                            <span class="home"><strong><</strong></span>
-                            <span class="music-playing"><strong>Music playing..</strong></span>
-                            <span class="mycd-animate"></span>
-                            <span class="back"><strong>></strong></span>
-                            <span class="back-again"><strong>></strong></span>
-                            
-                    <div class="for-upgrade">
-                        <span class="upgrade-back"><strong>></strong></span>
-                    </div>
-                </div>
-                   
-                        <div>
-                        <div class="upgrade-music"><b>Upgrade Music Player</b> </div>
-                      <div class="control-icons">
-                            <span class="like">Like</span>
-                            <span class="lyrics">Lyrics</span>
-                            <span class="previous"></span>
-                            <span class="play"></span>
-                            <span class="next"></span>
-                            <span class="repeat"></span>
-                            <span class="playlist"></span>
-                            <span class="music"></span>
-                            <div id="audio-player-container">                           
+        <ul>
+            <li><small><b>COMMUNITIES</b></small></li>
+            <li><a href="">For Artists</a></li>
+            <li><a href="">Developers</a></li>
+            <li><a href="">Advertising</a></li>
+            <li><a hre(128, 128, 128, 0.616)f="">Investors</a></li>
+            <li><a href="">Vendors</a></li>
+        </ul>
 
-                            </div>
-                        </div>
-                        </div>
-                        <div class="audio">
-                            <audio src="./change.mp3" controls type="audio" style="width: 25vw;"></audio>
-                        </div>
-                
-
+        <ul>
+            <li><small><b>USEFUL LINKS</b></small></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Web Player</a></li>
+            <li><a href="">Free Mobile App</a></li>
+        </ul>
+    </div>
+    <div class="socials">
+        <li><img src="images/facebook.png" width="55px" height="55px"></li>
+        <li><img src="images/twitter.png" width="55px" height="55px"></li>
+        <li><img src="images/youtube.png" width="55px" height="55px"></li>
+    </div>
+    </div>
+    <div class="last-clicks">
+       <ul class="lastinlast">
+           <li><a href="">Legal</a></li>
+           <li><a href="">Privacy Centre</a></li>
+           <li><a href="">Privacy Policy</a></li>
+           <li><a href="">Cookies</a> </li>
+           <li><a href="">About Ads</a></li>
+       </ul>
+       <ul class="naija">
+           <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Nigeria</li>
+           <li>2021 Spotify AB</li>
+       </ul>
+    </div>
+</div>
     </div>
 </body>
 </html>

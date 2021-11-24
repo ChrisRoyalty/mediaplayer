@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+
+}
+.heading-clicks{
+display: flex;
+border: 0.5 solid white;
+background-color: black; 
+border-left-color: black;
+border-right: black;
+height: 80px;
+width: 1349px;
+margin-top: -8px;
+margin-left: -8px;
+font-weight: bold;
+color: white;
+align-items: center; 
+}
+
+
+.heading-clicks img{
+    margin-left: 80px;
+    align-items: center;
+    border-radius: 20px;
+}
+.heading-clicks a{
+    color: ghostwhite;
+    text-decoration: none;
+}
+.heading-clicks :hover{
+    color: lawngreen;
+}
+.logo{
+margin-left: 5px;
+font-size: 20px;
+
+} 
+.premium{
+margin-left: 500px;
+}
+.support{
+margin-left: 50px;
+}
+.download{
+margin-left: 50px;
+}
+.clicks-divider{
+margin-left: 20px;
+margin-left: 20px;
+}
+.sign-up{
+margin-left: 50px; 
+font-weight: lighter;
+}
+.log-in{
+margin-left: 50px;
+font-weight: lighter;
+} 
+h1{
+color: white;
+
+margin-left: 150px;
+font-size: 150px;
+}  
+.cover-page{
+margin: 3%;
+position: relative;
+}
+.first-text{
+    position: absolute;
+    top: 32px;
+    left: -25px;
+    color: rgba(50, 205, 50, 0.938);
+    font-size:130px ;
+    font-family: -apple-system,
+     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
+}
+.second-text{
+    position: absolute;
+    bottom: 20px;
+    left: 385px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    top: 492px;
+    color: lawngreen;
+    font-weight: -5;
+}
+a.button{
+    position: absolute;
+    border: 1px solid lawngreen;
+    height: 15px;
+    width: 150px;
+    bottom: 20px;
+    left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    top: 615px;
+    color: rgba(0, 0, 255, 0.788);
+    border-radius: 30px;
+    background-color: rgba(0, 255, 0, 0.61);
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+a.button:hover{
+    color: lawngreen;
+}
+
+
+.cover-page img{
+    margin-top: -39px;
+    margin-left: -48px;
+    background-repeat: repeat;
+    
+}
+
+.cover-page4{
+    border: 1px solid black;
+    background-color: black;
+    height: 700px;
+    width: 1348px;
+    margin-left: -8px;
+    color: white;
+    margin-top: -40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.choice{
+    display: flex;
+    gap: 20px;
+    margin-left: -200px;
+    margin-top: 10px;
+}
+.choice ul{
+    list-style: none;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: smaller;
+}
+
+.choice a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    margin-right: 130px;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.socials img{
+    border-radius: 30px;
+}
+.downdiv1{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -15px;
+    
+}
+.downdiv1 a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    margin-left: -5px;
+
+}
+
+.last-clicks{
+    display: flex;
+    justify-content: space-between;
+}
+.last-clicks ul{
+    list-style: none;
+    color: grey;
+}
+.last-clicks ul :hover{
+    color: lawngreen;
+}
+.last-clicks a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+.lastinlast{
+    display: flex;
+    gap: 25px;
+    font-size: 11px;
+    margin-left: 70px;
+    margin-top: 130px;
+}
+.naija{
+    margin-top: 80px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right:130px;
+}
+.naija :hover{
+    color: lawngreen;
+}
+.container a:hover{
+    color: lawngreen;
+}

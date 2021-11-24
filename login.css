@@ -1,0 +1,149 @@
+.login{
+    display: flex;
+    justify-content: center;
+ }
+
+ #e-mail{
+     width: 365px;
+     padding: 8px;
+ }
+ #password{
+     width: 365px;
+     padding: 8px;
+ }
+ button{
+     position: relative;
+     width: 380px;
+     padding: 17px;
+     border-radius: 30px;
+     text-align: center;
+     list-style: none;
+     font-size: small;
+ }
+ 
+ ul a{
+     text-decoration: none;
+     color: white;
+     
+ }
+ .google{
+     color: rgba(0, 0, 0, 0.842);
+ }
+
+ .phone{
+     color: rgba(0, 0, 0, 0.849);
+ }
+ .button1{
+     margin-top: 15px;
+     background-color: blue;
+ }
+ .button1 :hover{
+     background-color: gray;
+     color: white;
+     border: 1px solid;
+     padding: 17px;
+     border-radius: 30px;
+ }
+
+ .button2{
+     margin-top: 15px;
+     background-color:black;
+ }
+ .button2 :hover{
+     background-color: gray;
+     color: white;
+     border: 1px solid;
+     padding: 17px;
+     border-radius: 30px;
+ }
+
+ .button3{
+     margin-top: 15px;
+     background-color:transparent;
+     border: 1px solid black;
+ }
+ .button3 :hover{
+     background-color: gray;
+     color: white;
+     border: 1px solid;
+     padding: 17px;
+     border-radius: 30px;
+ }
+
+ .button4{
+     margin-top: 15px;
+     background-color: transparent;
+     border: 1px solid black;
+ }
+ .button4 :hover{
+     background-color: gray;
+     color: white;
+     border: 1px solid;
+     padding: 17px;
+     border-radius: 30px;
+ }
+
+ .noticeb4buttons{
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ .form{
+     margin-left: 40px;
+     margin-top: -10px;
+ }
+ .logo{
+     position: absolute;
+ margin-left: 2px;
+ margin-top: 32px;
+ font-size: 22px;
+ color: black;
+ text-decoration: none;
+ font-size: 30px;
+}
+a.logo:hover{
+ color:green;
+}
+.logo-img{
+ border-radius: 30px;
+ margin-top: 30px;
+ margin-left: 165px;
+ 
+}
+.or{
+ margin-left: 225px;
+}
+#reminder{
+ position: relative;
+ 
+}
+.click{
+ width: 210px;
+ background-color: green;
+ padding: 12px;
+ margin-left: 60px;
+ margin-top: 50px;
+}
+.click a{
+ color: white;
+ text-decoration: none;
+}
+.questionaire{
+ position: absolute;
+ color: black;
+ margin-top: 110px;
+ margin-left: 113px;
+ text-decoration: none;
+ font-size: 16px;
+ 
+}
+.button5{
+ position: absolute;
+ border: 0.5px solid black;
+ color: black;
+ margin-top: 150px;
+
+}
+.button5 a{
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.829);
+}

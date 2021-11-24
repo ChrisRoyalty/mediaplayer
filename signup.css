@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+  
+}
+.logo-img{
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.logo{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-top: 24px;
+}
+.text1{
+    margin-left: 15px;
+}
+.button1{
+    position: absolute;
+    padding: 12px;
+    margin-left: 30px;
+    width: 250px;
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+}
+.or{
+    margin-top: 80px;
+    margin-left: 117px;
+}
+form{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+label{
+    font-weight: bold;
+    font-size: small;
+}
+input{
+    width: 300px;
+    padding: 10px;
+}
+#radio1{
+position: relative;
+width: 50%;
+margin: 0 auto;
+
+}
